@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import *
-
+#hello
 
 def function(request):
     if request.method == 'POST':
